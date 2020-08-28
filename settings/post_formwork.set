@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style type="text/css">
+            .btn {
+                -moz-box-shadow: 0px 10px 14px -7px #276873;
+                -webkit-box-shadow: 0px 10px 14px -7px #276873;
+                box-shadow: 0px 10px 14px -7px #276873;
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3fbbe8), color-stop(1, #3d8d99) );
+                background:-moz-linear-gradient( center top, #3fbbe8 5%, #3d8d99 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fbbe8', endColorstr='#3d8d99');
+                background-color:#3fbbe8;
+                -webkit-border-top-left-radius:8px;
+                -moz-border-radius-topleft:8px;
+                border-top-left-radius:8px;
+                -webkit-border-top-right-radius:8px;
+                -moz-border-radius-topright:8px;
+                border-top-right-radius:8px;
+                -webkit-border-bottom-right-radius:8px;
+                -moz-border-radius-bottomright:8px;
+                border-bottom-right-radius:8px;
+                -webkit-border-bottom-left-radius:8px;
+                -moz-border-radius-bottomleft:8px;
+                border-bottom-left-radius:8px;
+            text-indent:0;
+                display:inline-block;
+                color:#ffffff;
+                font-family:arial;
+                font-size:15px;
+                font-weight:bold;
+                font-style:normal;
+            height:40px;
+                line-height:40px;
+            width:90px;
+                text-decoration:none;
+                text-align:center;
+                text-shadow:0px 1px 0px #3d768a;
+            }.btn:hover {
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d8d99), color-stop(1, #3fbbe8) );
+                background:-moz-linear-gradient( center top, #3d8d99 5%, #3fbbe8 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d8d99', endColorstr='#3fbbe8');
+                background-color:#3d8d99;
+            }.btn:active {
+                position:relative;
+                top:1px;
+            }</style>
+            
+            <a href="home" class="btn" onclick="location.href='https://totowang-hhh.github.io'">首页</a>
+            <h1>{title}</h1> <p>{name}</p>
+    </head>>
+    <body>
+        <h1>{title}</h1>
+        <p>{content}</p>
+    </body>>
+</html>
