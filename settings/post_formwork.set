@@ -44,11 +44,11 @@
                 top:1px;
             }</style>
             
-            <a href="home" class="btn" onclick="location.href='https://totowang-hhh.github.io'">首页</a>
-            <h1>{title}</h1> <p>{name}</p>
-    </head>>
+            <h1>{title}</h1>
+            <title>{title}</title>
+    </head>
     <body>
         <h1>{title}</h1>
-        <p>{content}</p>
+        {content}
     </body>>
 </html>
